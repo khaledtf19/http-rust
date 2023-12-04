@@ -12,6 +12,7 @@ use tower_http::services::ServeDir;
 
 mod error;
 mod web;
+mod model;
 
 #[tokio::main]
 async fn main() -> Result<()> {
